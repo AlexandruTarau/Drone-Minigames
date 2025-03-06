@@ -1,3 +1,53 @@
+# DRONE MINIGAMES
+
+## Description
+This is an implementation of a drone racing game in 3D.
+
+## Controls & Mechanics
+- The game can be played either in singleplayer mode or can have 2 users playing against each other.
+- Controls:
+  - **Common**
+    - (`) -> Toggle Game Mode (SinglePlayer/MultiPlayer)
+    - `Tab` -> Start Game
+    - `R` -> Restart Level
+  - **Player 1**
+    - `W` -> Go Forward
+    - `A` -> Go Left
+    - `S` -> Go Back
+    - `D` -> Go Right
+    - `E` -> Look Right
+    - `Q` -> Look Left
+    - `Space` -> Dash Forward
+    - `X` -> Go Up
+    - `Z` -> Go Down
+    - `V` -> Toggle Perspective (First/Third Person)
+  - **Player 2**
+    - `U` -> Go Forward
+    - `H` -> Go Left
+    - `J` -> Go Back
+    - `K` -> Go Right
+    - `I` -> Look Right
+    - `Y` -> Look Left
+    - `Enter` -> Dash Forward
+    - `M` -> Go Up
+    - `N` -> Go Down
+    - `B` -> Toggle Perspective (First/Third Person)
+
+
+- Once the game starts:
+  - Checkpoints (floating rectangles) will spawn around the map. The checkpoints must be passed in order. The next checkpoint is highlighted with **green** if you are facing the right direction or **yellow** if you are facing the wrong direction.
+  - An arrow will point to the next checkpoint.
+  - In **MultiPlayer**: PowerUps will spawn randomly on the map which will either boost you or debuff the other player.
+  - The goal is to:
+      - **SinglePlayer:** Pass all checkpoints within a time limit.
+      - **MultiPlayer:** Pass all checkpoints before the other player.
+
+## Code location
+This game is only a part of the entire project. The relevant code resides at `src/lab_m1/Tema2/`.
+
+## How to run
+Run the `src/main.cpp` file.
+
 # GFX Framework
 
 ## :sparkles: Introduction
